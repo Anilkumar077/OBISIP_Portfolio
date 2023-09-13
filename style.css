@@ -97,6 +97,12 @@ section{
     padding-top: 20px;
 }
 
+@media screen and (max-width:567px){
+    .profile-details-container{
+        margin-left: 0px;
+    }
+}
+
 .profile-pic{
     border-radius: 50%;
     height: 330px;
@@ -196,6 +202,7 @@ section{
     border: 1px solid #000000;
     border-radius: 8px;
     padding-top: 10px;
+    padding: 8px;
     text-align: center;
     
     height: 110px;
@@ -240,6 +247,8 @@ section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+
     }
     .education-details-desc{
         padding-top: 15px;
@@ -380,7 +389,7 @@ section{
 }
 
 .icons{
-    font-size: 40px;
+    font-size: 38px;
     margin: 15px;
 }
 
